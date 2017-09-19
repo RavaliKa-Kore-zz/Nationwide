@@ -55,7 +55,7 @@
         // Sign JWT
         var sHeader = JSON.stringify(oHeader);
         var sPayload = JSON.stringify(oPayload);
-        var sJWT = KJUR.jws.JWS.sign("HS256", sHeader, sPayload, "4E4yXjA+wsNMccaVYsNJD0WMSFXzN5cYbaTLCtlZ3Z0=");
+        var sJWT = KJUR.jws.JWS.sign("HS256", sHeader, sPayload, "oxB8NaBV63LgL2D5zoL0kjy5h03JWLvNnzFcYfoxP40=");
         return sJWT;
 
 
@@ -79,8 +79,8 @@
 				botOptions.speechSocketUrl = 'wss://';
 				botOptions.assertionFn = assertion;
 				botOptions.koreAnonymousFn = koreAnonymousFn;
-				botOptions.clientId   = "cs-1fea9ce7-bf85-55be-b796-f35ffa287a23"; // secure client-id
-				botOptions.botInfo = {name:"Raymond Smart Chat","_id":"st-e782b436-7e19-5153-a222-9499c7edbff1"}; // bot name is case sensitive
+				botOptions.clientId   = "cs-d9323803-d254-5ae9-b634-fc22ec97d454"; // secure client-id
+				botOptions.botInfo = {name:"Nationwide_Demo","_id":"st-6fc43025-12a1-564a-b1ed-5e3b1695e30b"}; // bot name is case sensitive
 			//	botOptions.sendWelcomeMessage = true;
 				var chatConfig={
 					botOptions:botOptions,
