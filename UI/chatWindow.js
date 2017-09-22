@@ -706,7 +706,7 @@ function koreBotChat() {
 			}else if(type == "url" || type == "web_url"){
 				var a_link = $(this).attr('url');
 				if(a_link.indexOf("http:") < 0 && a_link.indexOf("https:") < 0){
-					a_link = "http:////" + a_link;
+					//a_link = "http:////" + a_link;
 				}
 				var _tempWin = window.open(a_link,"_blank");
 			}
